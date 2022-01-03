@@ -1,0 +1,31 @@
+::placeholder { 
+    color: #B6B6B6;
+    opacity: 1 !important; 
+  }
+
+.searchBarContainer{
+    margin: 16px 0px;
+    padding: 8px 0;
+    width: 100%;
+    background-color: rgb(255, 255, 255, 15%);
+    border: 0;
+    color: #B6B6B6;
+    border-radius: 4px;
+}
+
+.searchBar{
+    width: 100%;
+    margin: 0;
+    padding: 16px 0px 16px 48px;
+    background: none;
+    background-image: url("../assets/icons/search-icon.png");
+    background-size: 32px 32px;
+    background-position-y: center;
+    background-position-x: 8px;
+    background-repeat: no-repeat;
+    border: 0;
+    font-size: 16px;
+    color: #B6B6B6;
+    outline: none;
+}
+

@@ -1,0 +1,59 @@
+@import url("../assets/fonts.css");
+
+:root {
+  --blue: #3ea1db;
+  --blue-dark: #574ae8;
+  --white: #fff;
+
+  --text: #b6b6b6;
+
+  --linear: linear-gradient(90deg, #574ae8 0%, #3ea1db 100%);
+}
+
+.card {
+  background: var(--white);
+  padding: 16px;
+  margin: 30px 0;
+  border-radius: 4px;
+  box-shadow: 0px 0px 4px rgba(182, 182, 182, 0.3);
+}
+
+.cardContainer {
+  margin: 0 16px;
+}
+
+.dateContainer {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.heartIcon {
+  height: 24px;
+  cursor: pointer;
+}
+
+h1 {
+  margin: 0;
+  font-size: 28px;
+  font-weight: 900;
+  font-family: "Inter";
+}
+
+h3,
+h4 {
+  font-family: "Inter";
+  color: grey;
+  text-align: justify;
+  line-height: 1.6;
+  font-weight: normal;
+}
+
+@media only screen and (max-width: 1280px)  {
+  h1{
+    font-size: 24px;
+  }
+  h3, h4 {
+    font-size: 16px;
+  }
+}

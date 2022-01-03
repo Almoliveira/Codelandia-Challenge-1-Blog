@@ -1,0 +1,56 @@
+@import url("../assets/fonts.css");
+
+:root {
+    --blue: #3EA1DB;
+    --blue-dark: #574AE8;
+    --white: #FFF;
+  
+    --text: #B6B6B6;
+    
+    --linear: linear-gradient(90deg, #574AE8 0%, #3EA1DB 100%);
+  }
+
+.HeaderDiv{
+    padding: 16px 0;
+    background: var(--linear);
+    color: white;
+    width: auto;
+    height: auto;
+
+    font-family: "Inter";
+    font-size: 24px;
+}
+
+.flexAlign{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+
+.container{
+    margin: 0 auto;
+    width: 1366px;
+}
+
+
+@media only screen and (min-width: 1281px)  {
+    .container{
+        margin: 0 auto;
+        width: 1280px;
+    }
+
+}
+@media only screen and (max-width: 1280px) and (min-width: 800px)  {
+    .container{
+        margin: 0 auto;
+        width: 800px;
+    }
+}
+
+@media only screen and (max-width: 799px) {
+    .container{
+        margin: 0 20px;
+        width: auto;
+    }
+}
